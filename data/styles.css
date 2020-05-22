@@ -101,6 +101,8 @@
 }
 .flow_shape {
 }
+.default_button {
+}
 .icon {
 }
 .checkbox-label-uncheck {
@@ -112,5 +114,19 @@
   text-align:left;
 }
 .checkbox-uncheck {
+}
+.heading_2 {
+  font-family:'Arial-BoldMT', 'Arial Bold', 'Arial', sans-serif;
+  font-weight:700;
+  font-style:normal;
+  font-size:24px;
+  text-align:left;
+}
+.paragraph1 {
+  text-align:left;
+}
+.connector {
+}
+.ellipse1 {
 }
 textarea, select, input, button { outline: none; }

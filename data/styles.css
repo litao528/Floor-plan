@@ -16,6 +16,8 @@
 }
 ._图片_ {
 }
+.button {
+}
 ._一级标题 {
   font-family:'ArialMT', 'Arial', sans-serif;
   font-weight:bold;
@@ -59,6 +61,8 @@
 }
 ._文本段落 {
   text-align:left;
+}
+._线段 {
 }
 .sticky_1 {
   text-align:left;
@@ -130,5 +134,14 @@
 .connector {
 }
 .ellipse1 {
+}
+._图片 {
+  color:#000000;
+}
+._图片1 {
+}
+.text_field {
+  color:#000000;
+  text-align:left;
 }
 textarea, select, input, button { outline: none; }

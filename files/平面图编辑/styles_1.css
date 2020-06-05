@@ -20554,3 +20554,32 @@
   white-space:nowrap;
   text-transform:none;
 }
+#u2046_img {
+  border-width:0px;
+  position:absolute;
+  left:-4px;
+  top:-4px;
+  width:34px;
+  height:34px;
+}
+#u2046 {
+  border-width:0px;
+  position:absolute;
+  left:185px;
+  top:21px;
+  width:24px;
+  height:24px;
+  display:flex;
+}
+#u2046 .text {
+  position:absolute;
+  align-self:center;
+  padding:2px 2px 2px 2px;
+  box-sizing:border-box;
+  width:100%;
+}
+#u2046_text {
+  border-width:0px;
+  word-wrap:break-word;
+  text-transform:none;
+}

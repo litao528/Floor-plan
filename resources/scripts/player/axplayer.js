@@ -494,6 +494,8 @@ var iphoneXFirstPass = true;
 
         var newHeight = 0;
         var newWidth = 0;
+        /*
+        // This hack doesn't work as of 05/14/20. Temporary removed
         if (iphoneX && $axure.utils.isShareApp()) {
             // Hack for Iphone X
             newHeight = $(window).height() - ((!isMobile && $('#topPanel').is(':visible')) ? $('#topPanel').height() : 0);
@@ -514,6 +516,9 @@ var iphoneXFirstPass = true;
             newHeight = window.innerHeight - ((!isMobile && $('#topPanel').is(':visible')) ? $('#topPanel').height() : 0);
             newWidth = $(window).width();
         }
+        */
+        newHeight = window.innerHeight - ((!isMobile && $('#topPanel').is(':visible')) ? $('#topPanel').height() : 0);
+        newWidth = $(window).width();
 
         $('#outerContainer').height(newHeight).width(newWidth);
         $('#mainPanel').height(newHeight);
